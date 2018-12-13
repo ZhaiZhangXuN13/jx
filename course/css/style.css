@@ -1,0 +1,79 @@
+/*课程设置*/
+.box .subMenu ul li:nth-of-type(1){
+	background-image: url(../images/left_link_02.jpg);
+}
+.box .subMenu ul li:nth-of-type(2){
+	background-image: url(../images/left_link_06.jpg);
+}
+.box .subMenu ul li:nth-of-type(3){
+	background-image: url(../images/left_link_08.jpg);
+}
+.box .subMenu ul li:nth-of-type(4){
+	background-image: url(../images/left_link_10.jpg);
+}
+.box .subMenu ul li:nth-of-type(5){
+	background-image: url(../images/left_link_12.jpg);
+}
+.box .subMenu ul li:nth-of-type(6){
+	background-image: url(../images/left_link_14.jpg);
+}
+.box .subMenu ul li:nth-of-type(7){
+	background-image: url(../images/left_link_16.jpg);
+}
+.box .subMenu ul li:nth-of-type(8){
+	background-image: url(../images/left_link_18.jpg);
+}
+/*end课程设置*/
+/*环境艺术设计*/
+.box .subMenu ul.environment li:nth-of-type(1){
+	background-image: url(../images/left_link_03.jpg);
+}
+/*end环境艺术设计*/
+/*数字影视动画*/
+.box .subMenu ul.animation li:nth-of-type(2){
+	background-image: url(../images/left_link_07.jpg);
+}
+/*end数字影视动画*/
+/*大数据*/
+.box .subMenu ul.data li:nth-of-type(3){
+	background-image: url(../images/left_link_09.jpg);
+}
+/*end大数据*/
+/*PHP*/
+.box .subMenu ul.PHP li:nth-of-type(4){
+	background-image: url(../images/left_link_11.jpg);
+}
+/*endPHP*/
+/*h5*/
+.box .subMenu ul.h5 li:nth-of-type(5){
+	background-image: url(../images/left_link_13.jpg);
+}
+/*endh5*/
+/*Python*/
+.box .subMenu ul.Python li:nth-of-type(6){
+	background-image: url(../images/left_link_15.jpg);
+}
+/*endPython*/
+/*上岗培训*/
+.box .subMenu ul.training li:nth-of-type(7){
+	background-image: url(../images/left_link_17.jpg);
+}
+/*end上岗培训*/
+/*直通车*/
+.box .subMenu ul.train li:nth-of-type(8){
+	background-image: url(../images/left_link_19.jpg);
+}
+/*end直通车*/
+
+
+@media screen and (min-width:1000px) {
+	.box .subMenu ul li:nth-of-type(1):hover{background-image: url(../images/left_link_03.jpg);}
+	.box .subMenu ul li:nth-of-type(2):hover{background-image: url(../images/left_link_07.jpg);}
+	.box .subMenu ul li:nth-of-type(3):hover{background-image: url(../images/left_link_09.jpg);}
+	.box .subMenu ul li:nth-of-type(4):hover{background-image: url(../images/left_link_11.jpg);}
+	.box .subMenu ul li:nth-of-type(5):hover{background-image: url(../images/left_link_13.jpg);}
+	.box .subMenu ul li:nth-of-type(6):hover{background-image: url(../images/left_link_15.jpg);}
+	.box .subMenu ul li:nth-of-type(7):hover{background-image: url(../images/left_link_17.jpg);}
+	.box .subMenu ul li:nth-of-type(8):hover{background-image: url(../images/left_link_19.jpg);}
+}	
+	

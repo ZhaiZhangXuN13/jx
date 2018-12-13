@@ -1,0 +1,62 @@
+.box .subMenu ul li:nth-of-type(1){
+	background-image: url(../images/xsjx_1.gif);
+}
+.box .subMenu ul li:nth-of-type(2){
+	background-image: url(../images/hy_1.gif);
+}
+.box .subMenu ul li:nth-of-type(3){
+	background-image: url(../images/ydh_1.gif);
+}
+.box .subMenu ul li:nth-of-type(4){
+	background-image: url(../images/dxs_.gif);
+}
+.box .subMenu ul li:nth-of-type(5){
+	background-image: url(../images/hj_1.gif);
+}
+.box .subMenu ul li:nth-of-type(6){
+	background-image: url(../images/sdwh_1.gif);
+}
+
+
+
+
+.box .subMenu ul.Military li:nth-of-type(1){
+	background-image: url(../images/xsjx.gif);
+}
+
+.box .subMenu ul.arts li:nth-of-type(2){
+	background-image: url(../images/hy.gif);
+}
+
+.box .subMenu ul.Sports li:nth-of-type(3){
+	background-image: url(../images/ydh.gif);
+}
+
+.box .subMenu ul.students li:nth-of-type(4){
+	background-image: url(../images/dxs.gif);
+}
+
+.box .subMenu ul.performance li:nth-of-type(5){
+	background-image: url(../images/hj.gif);
+}
+
+.box .subMenu ul.Christmas li:nth-of-type(6){
+	background-image: url(../images/sdwh.gif);
+}
+
+
+
+
+
+
+@media screen and (min-width:1000px) {
+	.box .subMenu ul li:nth-of-type(1):hover{background-image: url(../images/xsjx.gif);}
+	.box .subMenu ul li:nth-of-type(2):hover{background-image: url(../images/hy.gif);}
+	.box .subMenu ul li:nth-of-type(3):hover{background-image: url(../images/ydh.gif);}
+	.box .subMenu ul li:nth-of-type(4):hover{background-image: url(../images/dxs.gif);}
+	.box .subMenu ul li:nth-of-type(5):hover{background-image: url(../images/hj.gif);}
+	.box .subMenu ul li:nth-of-type(6):hover{background-image: url(../images/sdwh.gif);}
+	.banner{display:none;}
+	.container p:first-of-type{margin-top: 33px;}
+	.play {display: block;}
+}	

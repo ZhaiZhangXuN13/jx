@@ -1,0 +1,151 @@
+/*子页面通用类*/
+.width{
+	max-width: 1030px;
+    min-width: 270px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.box{
+	margin-top:40px;
+	padding-bottom:40px;
+	display: flex;
+	flex-wrap: wrap;
+}
+.box .subMenu ul{
+	padding-right: 17px;
+    border-right: 1px solid #bababa;
+    display: flex;
+	flex-wrap: wrap;
+} 
+.box .subMenu ul li{
+	cursor: pointer;
+	border-bottom: 4px solid #fff;
+	background-repeat: no-repeat;
+	width: 100%;
+} 
+.box .subMenu ul li.ause{
+	border-bottom: 4px solid #fa9634;
+} 
+
+/*学院简介*/
+.box .subMenu ul.intro li:nth-of-type(1){
+	background-image: url(../profile/images/xygk_03.jpg);
+}
+.box .subMenu ul.intro li:nth-of-type(2){
+	background-image: url(../profile/images/xygk_06.jpg);
+}  
+.box .subMenu ul.intro li:nth-of-type(2):hover{
+	background-image: url(../profile/images/xygk_07.jpg);
+}  
+/*end学院简介*/
+/*办学特色*/
+.box .subMenu ul.feature li:nth-of-type(1){
+	background-image: url(../profile/images/xygk_02.jpg);
+}
+.box .subMenu ul.feature li:nth-of-type(2){
+	background-image: url(../profile/images/xygk_07.jpg);
+}  
+.box .subMenu ul.feature li:nth-of-type(1):hover{
+	background-image: url(../profile/images/xygk_03.jpg);
+} 
+/*end办学特色*/
+
+
+
+.box .subMenu ul li a{
+	display:block; 
+	color:#222;
+}
+.box .container{
+    padding-top: 5px;
+    box-sizing: border-box;
+}
+.box .container p{
+	font-size: 16px;
+    line-height: 30px;
+    color: #000000;
+    text-indent: 32px;
+}
+.box .container img{
+	max-width: 100%;
+	padding-top: 17px;
+    padding-bottom: 32px;
+}
+.box .container h4{
+	font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fa9634;
+}
+.box .container h4 span{
+	font: 16px/50px "microsoft yahei";
+    font-weight: normal;
+    color: #222;
+}
+.box .container h6 {
+    font-size: 16px;
+    margin-top: 10px;
+}
+.box .container p span {
+    font-weight: bold;
+}
+.box .container h5 {
+    font-size: 16px;
+    color: #222222;
+}
+.box .container p b{
+    font-weight: bold;
+    display: inline-block;
+    text-indent: 0;
+}
+.box .container p b:first-of-type{
+	padding-left: 0 !important;
+}
+
+@media screen and (min-width:1000px) {
+	.box{margin-top: 120px;}
+	.box .subMenu{width: 26.6%;}
+	.box .subMenu ul li{background-position:20px center;}
+	.box .subMenu ul li a{padding-left:70px; font-size:22px; line-height:77px;}
+	.box .container{width:73.4%; padding-left:48px; padding-bottom:40px;}
+	.box .container p.no_indent{text-indent: 0;}
+	.box .subMenu ul li:hover{border-bottom: 4px solid #fa9634;}
+	.box .container p b{font-size:22px; padding-left:40px;}
+}
+@media screen and (min-width:768px) and (max-width:999px ){
+	.box .subMenu{width:29%;}
+	.box .subMenu ul li{background-position:10px center;}
+	.box .subMenu ul li a{padding-left:60px; font-size:20px; line-height:66px;}
+	.box .container{width:71%; padding-left:38px;}
+	.box .subMenu ul li.ause:hover{border-bottom: 4px solid #fff;}
+	.box .container p b{font-size:20px; padding-left:20px;}
+}	
+@media screen and (max-width: 767px){
+	.box{margin-top:20px;}
+	.box .subMenu{width: 100%;}
+	.box .subMenu ul{padding:0; border:0;}
+	.box .subMenu ul.intro li{background-position:center 10px; width:48%;margin-right:4%;}
+	.box .subMenu ul.intro li:nth-of-type(2){margin-right:0;}
+	.box .subMenu ul.feature li{background-position:center 10px; width:48%;margin-right:4%;}
+	.box .subMenu ul.feature li:nth-of-type(2){margin-right:0;}
+	.box .subMenu ul li{background-position:center 10px; width:33.3333333%;}
+	.box .subMenu ul li a{padding:50px 0 0 0; font-size:20px; line-height:50px; text-align:center;}
+	.box .container{width:100%;}
+	.box .subMenu ul li.ause:hover{border-bottom: 4px solid #fff;}
+	.box .container p b{font-size:18px; padding-left:32px;}
+}
+@media screen and (max-width: 767px) and (min-width: 501px)	{
+	.box .subMenu ul li{background-position:center 10px; width:33.3333333%;}
+	.box .subMenu ul li a{padding:50px 0 0 0; font-size:20px; line-height:50px; text-align:center;}
+	.box .container{width:100%;}
+}
+@media screen and (max-width:500px) {
+	.box{padding-bottom: 0;}
+	.box .subMenu ul li a{padding:50px 0 0 0; font-size:16px; line-height:40px; text-align:center;}
+	.box .subMenu ul li a span{display:none;}
+	.box .container p{font-size: 14px;}
+	.box .container h4{font-size:16px; line-height:30px; padding-top:10px;}
+	.box .subMenu ul li.ause:hover{border-bottom: 4px solid #fff;}
+	.box .container img{padding-top:10px; padding-bottom:20px;}
+}

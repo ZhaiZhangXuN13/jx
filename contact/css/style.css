@@ -1,0 +1,45 @@
+.contan{
+	max-width: 1030px;
+    min-width: 300px;
+	margin: 0 auto;
+	padding: 7px 15px 0 15px;
+	box-sizing: border-box;
+	text-align: center;
+}
+.contan h4{
+	font-size: 18px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #fa9634;
+}
+.contan p{
+	line-height: 36px;
+	font-size: 16px;
+	color: #000;
+}
+.contan p span{
+	font-size: 22px;
+    font-weight: bold;
+    display: inline-block;
+}
+.contan p span:not(:first-of-type) {
+    padding-left: 40px;
+}
+.contan img{
+	display: block;
+    margin: 0 auto;
+    margin-top: 32px;
+    margin-bottom: 70px;
+    max-width: 100%;
+}
+@media screen and (min-width: 1000px){
+	.contan{
+		margin-top: 80px;
+	}
+}
+@media screen and (max-width: 380px){
+	.contan p span {
+	    padding: 0 !important;
+	    display: block;
+	}
+}	

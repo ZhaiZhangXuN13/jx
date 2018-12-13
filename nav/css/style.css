@@ -1,0 +1,51 @@
+*{margin:0; padding:0;}			
+ul,li,p,dl,dt,dd,ol,h1,h2,h3,h4,h5,h6,form,label,header,footer,nav,section,aside,dialog,
+figure,figure,figcaption,hgroup,article{display: block;}
+ul{list-style:none}
+.clearfix:after{display:block; height:0; clear:both; content:''; visibility:hidden;}
+.ellipsis{
+white-space: nowrap;/*空白不换行*/
+overflow:hidden;/*溢出隐藏*/
+text-overflow:ellipsis;/*显示省略号*/
+}
+a{text-decoration:none;}
+body{font-family: "microsoft yahei";}	
+
+div.box{
+	width: 100%;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.box h3{
+	height: 60px;
+	line-height: 60px;
+	font-size: 26px;
+	color: #6c6c6c;
+}
+.box p{
+	display: flex;
+	flex-wrap: wrap;
+}
+.box p a{
+	display: block;
+	padding: 10px;
+	font-size: 16px;
+	background: #9E9E9E;
+	color: #fbfeff;
+	margin-left: 20px;
+	margin-bottom: 10px;
+	border-radius:5px ;
+	box-sizing: border-box;
+	cursor: pointer;
+}
+.box p a:hover{
+	color: #ff00ba;
+}
+h1{
+	width: 100%;
+	background: #36332a;
+}
+h1 img{
+	display: block;
+	margin: 0 auto;
+}

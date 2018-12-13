@@ -1,0 +1,322 @@
+.width{
+	max-width: 1030px;
+    min-width: 300px;
+	margin: 0 auto;
+	padding: 0 15px;
+	box-sizing: border-box;
+}
+.width>ul{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	box-sizing: border-box;
+}
+.width a.jz{
+	display: none;
+	box-sizing:border-box; 
+	font-size:14px;
+	font-weight:bold; 
+	color: #fff;
+	height:40px; 
+	background:#fa9634;
+	padding:10px 15px;
+	border-radius:5px;
+	line-height:20px;
+	margin-left: 50%;
+	transform:translateX(-50%);
+}
+img{
+	display: block;
+    max-width: 100%;
+}
+/*学院服务*/
+.service ul li{
+	width: 25%;
+	box-sizing: border-box;
+	cursor: pointer;
+	padding-left: 10.4%;
+	height: 112px;
+	transition: all .35s;
+	background-position:16% 25px; 
+	background-repeat: no-repeat;
+	border-bottom: 5px solid #fff;
+}
+.service ul li:hover{
+	border-bottom: 5px solid #fa9634;
+}
+.service ul li:nth-of-type(1){
+	background-image: url(../images/service_1_1.jpg);
+}
+.service ul li:nth-of-type(1):hover{
+	background-image: url(../images/service_1_2.jpg);
+}
+.service ul li:nth-of-type(2){
+	background-image: url(../images/service_2_1.jpg);
+}
+.service ul li:nth-of-type(2):hover{
+	background-image: url(../images/service_2_2.jpg);
+}
+.service ul li:nth-of-type(3){
+	background-image: url(../images/service_3_1.jpg);
+}
+.service ul li:nth-of-type(3):hover{
+	background-image: url(../images/service_3_2.jpg);
+}
+.service ul li:nth-of-type(4){
+	background-image: url(../images/service_4_1.jpg);
+}
+.service ul li:nth-of-type(4):hover{
+	background-image: url(../images/service_4_2.jpg);
+}
+.service ul li h6{
+	font-weight: normal;
+	padding-top: 25px;
+    height: 35px;
+    color: #222;
+    font-size: 18px;
+}
+.service ul li p{
+	font-size: 14px;
+    color: #888;
+}
+/*end学院服务*/
+/*课程设置*/
+.course ul li{
+	width: 33.3333333%;
+	border-left: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+	box-sizing: border-box;
+	padding: 17px 0 10px 0;
+	transition: all .35s;
+	cursor: pointer;
+	text-align: center;
+	position: relative;
+}
+.course ul li.right{
+	border-right: 1px solid #dedede;
+}
+.course ul li.bottom{
+	border-bottom: 1px solid #dedede;
+}
+.course ul li span{
+	display: inline-block;
+	width: 36.60000000000000000366%;
+}
+.course ul li h3{
+	font-size: 24px;
+    line-height: 50px;
+    color: #000;
+    font-weight: normal;
+}
+.course ul li div{
+	position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #90c166;
+    padding: 20px;
+    color: #fff;
+    opacity: 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+.course ul li:nth-of-type(2n) div {
+    background: #fa9634;
+}
+.course ul li div h3{
+	color: #fff;
+}
+.course ul li div p{
+	font-size: 14px;
+    line-height: 22px;
+}
+.course ul li:hover div{
+	opacity: 1;
+}						
+/*end课程设置*/
+/*校园风采*/
+.campus h2 a{
+	display: block;
+    float: right;
+    font-size: 14px;
+    margin-top: 10px;
+    color: #fc973f;
+}
+.campus ul li a:nth-of-type(1){
+	display: block;
+    margin-bottom: 24px;
+}
+.campus ul li a:nth-of-type(2){
+	font-size: 18px;
+    color: #333;
+    transition: .35s;
+}
+.campus ul li a:nth-of-type(2):hover{
+	color: #fa9634;
+}
+.campus ul li p{
+	height: 42px;
+    font-size: 14px;
+    line-height: 42px;
+    color: #888;
+}
+/*end校园风采*/
+/*学生作品*/
+.works ul li{
+	cursor: pointer;
+	position: relative;
+	box-sizing: border-box;
+}
+.works ul li div{
+	width: 100%;
+	height: 100%;
+	background: rgba(244,117,6,0);
+	position: absolute;
+	top: 0;
+	left: 0;
+	text-align: center;
+	transition: .35s;
+}
+.works ul li div h4{
+	font-size: 24px;
+	font-weight: bold;
+	padding-top: 41px;
+	color: transparent;
+	transition: 2s;
+}
+.works ul li div p{
+	font-size: 18px;
+	color: transparent;
+	transition: 2s;
+}
+.works ul li div p:nth-of-type(1){
+	line-height: 80px;
+}
+.works ul li div:hover h4,
+.works ul li div:hover p{
+	color: #fff;
+}
+/*end学生作品*/
+/*明星学子*/
+.star ul{
+	margin-left: 5px;
+}
+.star ul li{
+	box-sizing: border-box;
+	position: relative;
+	cursor: pointer;
+	transition: .35s;
+	margin-bottom: 10px;
+}
+.star ul li:nth-of-type(-n+16) {
+    margin-bottom: 10px;
+}
+.star ul li div{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #90c166;
+	opacity: 0;
+	text-align: center;
+}
+.star ul li div p{
+	padding-top: 31px;
+    font-size: 18px;
+    color: #fff;
+}
+.star ul li div h4{
+	font-size: 24px;
+    padding-top: 31px;
+    color: #fff;
+    font-weight: normal;
+}
+/*end明星学子*/
+/*就业单位*/
+.employment ul li{
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+/*end就业单位*/
+
+	
+@media screen and (min-width:1000px) {
+	.width h2{font-size: 36px; padding-top: 38px;height: 78px;}
+	.campus ul li{width: 30%;margin-right: 5%;}
+	.campus ul li:nth-of-type(-n+3) {margin-bottom: 28px;}
+	.campus ul li:nth-of-type(3n) {margin-right: 0;}
+	.hidden{display: block !important;}
+	.hidde{display: block !important;}
+	.hidd{display: block !important;}
+	.hid{display: block !important;}
+	.works ul li:hover div{background:rgba(244,117,6,.9);}
+	.works ul li{width:20%;}
+	.star ul li{width:25%;}
+	.star ul li:hover div{opacity: 1;}
+	.employment ul li{width:15.83333333%; margin-right:1%;}
+	.employment ul li:nth-of-type(6n){margin-right:0;}
+}
+@media screen and (max-width:999px ) and (min-width: 761px){
+	.width h2{font-size: 30px; padding-top: 30px;height: 65px;}
+	.service ul li{background-position: 10% 25px; height: 91px;}
+	.course ul li div{display: none;}
+	.campus ul li{width:33.3333333%;margin-right:0;box-sizing:border-box;}
+	.campus ul li.left{padding-right:10px;}
+	.campus ul li.middle{padding:0 5px;}
+	.campus ul li.right{padding-left:10px;}
+	.campus ul li:nth-of-type(-n+4) {margin-bottom: 20px;}
+	.hidden{display: block !important;}
+	.hidde{display: block !important;}
+	.hidd{display: block !important;}
+	.hid{display: block !important;}
+	.works ul li div{display: none;}
+	.works ul li{width:20%;}
+	.star ul li{width:25%;padding-right:10px;}
+	.employment ul li{width:15.83333333%; margin-right:1%;}
+	.employment ul li:nth-of-type(6n){margin-right:0;}
+}
+@media screen and (max-width: 760px){
+	.width h2{font-size: 24px; padding-top: 20px; height: 45px; font-weight: normal;}
+	.service ul li{background-position:center top; height:95px; padding:50px 0 0 0; text-align: center;}
+	.service ul li h6{display: inline-block; height:50px; line-height:50px; width:36px; padding:0; white-space: nowrap; overflow: hidden;}
+	.service ul li p{display: none;}
+	.course ul li div{display: none;}
+	.course ul li{border:0 !important; padding-top:10px;}
+	.course ul li span{width:50%;}
+	.course ul li h3{font-size: 18px;}
+	.campus ul li{width:50%;margin-right:0;box-sizing:border-box;padding:0;}
+	.campus ul li:nth-of-type(2n-1){padding-right:10px;}
+	.campus ul li:nth-of-type(2n){padding-left:10px;}
+	.campus ul li:nth-of-type(-n+4) {margin-bottom: 20px;}
+	.width a.jz{display:inline-block;}
+	.works ul li div{display: none;}
+	.works ul li{width:25%;margin-bottom:10px;padding-right:10px;}
+	.works ul{padding-left:5px;}
+	.star ul li{width:33.3333333%;padding-right:10px;}
+	.employment ul li{width:25%; box-sizing:border-box; padding-right:10px;}
+	.employment ul{padding-left:5px;}
+}
+
+@media screen and (max-width: 480px){
+	
+	.course ul li{width:50%;padding-top:10px; border:0;}
+	.course ul li span{width:50%;}
+	.course ul li h3{font-size: 18px;}
+	.campus ul li{width:50%;margin-right:0;box-sizing:border-box;padding:0;}
+	.campus ul li:nth-of-type(2n-1){padding-right:10px;}
+	.campus ul li:nth-of-type(2n){padding-left:10px;}
+	.campus ul li:nth-of-type(-n+4) {margin-bottom: 10px;}
+	.width a.jz{display:inline-block;}
+	.campus ul li p{display: none;}
+	.campus ul li a:nth-of-type(1){margin-bottom:10px;}
+	.works ul li div{display: none;}
+	.works ul li{width:33.33333%;margin-bottom:10px;padding-right:10px;}
+	.works ul li:nth-of-type(9){display:block !important;}
+	.works ul{padding-left:5px;}
+	.star ul li{width:50%;padding-right:10px;}
+	.employment ul li{width:33.33333333%; box-sizing:border-box; padding-right:10px;}
+	.employment ul li:nth-of-type(9){display:block !important;}
+	.employment ul{padding-left:5px;}
+}
